@@ -10,10 +10,10 @@ import {
 } from "reactstrap";
 
 // components
-import AppSimpleBar from "./AppSimpleBar";
+import AppSimpleBar from "./AppSimpleBar.tsx";
 
 // interface
-import { PinTypes } from "../src/data/chat";
+import { PinTypes } from "../data/chat.ts";
 import { Link } from "react-router-dom";
 
 interface PinProps {

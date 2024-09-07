@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from "react";
 
 // hooks
-import { useRedux } from "../../../hooks/index";
+import { useRedux } from "../../../hooks/index.ts";
 import { createSelector } from "reselect";
 // components
-import Loader from "../../../components/Loader";
-import AppSimpleBar from "../../../components/AppSimpleBar";
-import InviteContactModal from "../../../components/InviteContactModal";
-import EmptyStateResult from "../../../components/EmptyStateResult";
-import ListHeader from "./ListHeader";
-import Contact from "./Contact";
+import Loader from "../../../components/Loader.tsx";
+import AppSimpleBar from "../../../components/AppSimpleBar.tsx";
+import InviteContactModal from "../../../components/InviteContactModal.tsx";
+import EmptyStateResult from "../../../components/EmptyStateResult.tsx";
+import ListHeader from "./ListHeader.tsx";
+import Contact from "./Contact.tsx";
 
 // actions
 import {
@@ -20,10 +20,10 @@ import {
   getChatUserDetails,
   getChatUserConversations,
   changeSelectedChat,
-} from "../../../redux/actions";
+} from "../../../redux/actions.ts";
 
 //utils
-import { divideByKey, DivideByKeyResultTypes } from "../../../utils";
+import { divideByKey, DivideByKeyResultTypes } from "../../../utils/index.ts";
 
 interface IndexProps {}
 

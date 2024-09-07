@@ -17,9 +17,9 @@ import {
 import { DivideByKeyResultTypes } from "../utils";
 
 // interfaaces
-import { ContactTypes } from "../src/data/contacts";
-import { useContacts } from "../hooks";
-import { CreateChannelPostData } from "../redux/actions";
+import { ContactTypes } from "../data/contacts.ts";
+import { useContacts } from "../hooks/index.ts";
+import { CreateChannelPostData } from "../redux/chats/actions.ts";
 
 // components
 import AppSimpleBar from "./AppSimpleBar";

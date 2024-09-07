@@ -1,7 +1,7 @@
 import React from "react";
 import { Navigate } from "react-router-dom";
 
-import { useProfile } from "../hooks/index";
+import { useProfile } from "../hooks/index.ts";
 
 const AuthProtected = (props: any) => {
   const { userProfile, loading } = useProfile();

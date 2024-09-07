@@ -1,8 +1,8 @@
 import React from "react";
 
 // component
-import ChatUser from "./ChatUser";
-import ChatChannel from "./ChatChannel";
+import ChatUser from "./ChatUser.tsx";
+import ChatChannel from "./ChatChannel.tsx";
 
 interface ArchiveProps {
   archiveContacts: any;

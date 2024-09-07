@@ -11,7 +11,7 @@ import Routes from "./router/index.tsx";
 
 // api config
 // import config from "./config";
-import fakeBackend from "./helper/fakeBackend";
+import fakeBackend from "./helper/fakeBackend.ts";
 
 // TODO
 fakeBackend();

@@ -2,11 +2,11 @@ import React, { useEffect, useState } from "react";
 import { Alert, Form } from "reactstrap";
 
 // components
-import StartButtons from "./StartButtons";
-import InputSection from "./InputSection";
-import EndButtons from "./EndButtons";
-import MoreMenu from "./MoreMenu";
-import Reply from "./Reply";
+import StartButtons from "./StartButtons.tsx";
+import InputSection from "./InputSection.tsx";
+import EndButtons from "./EndButtons.tsx";
+import MoreMenu from "./MoreMenu.tsx";
+import Reply from "./Reply.tsx";
 
 // interface
 import { MessagesTypes } from "../../../../data/messages";

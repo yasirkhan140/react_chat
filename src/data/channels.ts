@@ -1,5 +1,5 @@
 // interfaces
-import { contacts } from "./contacts";
+import { contacts } from "./contacts.ts";
 import { MediaTypes, AttachedfileTypes } from "./myProfile";
 
 import img1 from "../assets/images/small/img-1.jpg";

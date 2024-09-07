@@ -3,7 +3,7 @@ import { createSelector } from "reselect";
 import { Button, Form, Input, UncontrolledTooltip } from "reactstrap";
 import { Link } from "react-router-dom";
 // hooks
-import { useRedux } from "../../../hooks/index";
+import { useRedux } from "../../../hooks/index.ts";
 
 // actions
 import {
@@ -19,24 +19,24 @@ import {
   getChannelDetails,
   getArchiveContact,
   readConversation,
-} from "../../../redux//chats/actions";
+} from "../../../redux//chats/actions.ts";
 import {inviteContact,
-  resetContacts,} from '../../../redux/contacts/actions'
+  resetContacts,} from '../../../redux/contacts/actions.ts'
 // interfaces
-import { CreateChannelPostData } from "../../../redux/chats/actions";
+import { CreateChannelPostData } from "../../../redux/chats/actions.ts";
 
 // components
-import AppSimpleBar from "../../../components/AppSimpleBar";
-import AddGroupModal from "../../../components/AddGroupModal";
-import InviteContactModal from "../../../components/InviteContactModal";
-import AddButton from "../../../components/AddButton";
-import ContactModal from "../../../components/ContactModal";
+import AppSimpleBar from "../../../components/AppSimpleBar.tsx";
+import AddGroupModal from "../../../components/AddGroupModal.tsx";
+import InviteContactModal from "../../../components/InviteContactModal.tsx";
+import AddButton from "../../../components/AddButton.tsx";
+import ContactModal from "../../../components/ContactModal.tsx";
 
-import Favourites from "./Favourites";
-import DirectMessages from "./DirectMessages";
-import Chanels from "./Chanels";
-import Archive from "./Archive";
-import { CHATS_TABS } from "../../../constant/layout";
+import Favourites from "./Favourites.tsx";
+import DirectMessages from "./DirectMessages.tsx";
+import Chanels from "./Chanels.tsx";
+import Archive from "./Archive.tsx";
+import { CHATS_TABS } from "../../../constant/layout.ts";
 
 interface IndexProps {}
 const Index = (props: IndexProps) => {

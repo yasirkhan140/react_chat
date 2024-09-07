@@ -2,13 +2,13 @@ import React from "react";
 import { UncontrolledTooltip } from "reactstrap";
 
 //components
-import AddButton from "../../../components/AddButton";
+import AddButton from "../../../components/AddButton.tsx";
 
 // interface
-import { UserTypes } from "../../../data/chat";
+import { UserTypes } from "../../../data/chat.ts";
 
 // component
-import ChatUser from "./ChatUser";
+import ChatUser from "./ChatUser.tsx";
 
 interface DirectMessagesProps {
   users: Array<UserTypes>;

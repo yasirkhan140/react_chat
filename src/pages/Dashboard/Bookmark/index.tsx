@@ -8,16 +8,16 @@ import {
   getBookmarks,
   deleteBookmark,
   updateBookmark,
-} from "../../../redux/bookmarks/actions";
+} from "../../../redux/bookmarks/actions.ts";
 
 // components
-import Loader from "../../../components/Loader";
-import AppSimpleBar from "../../../components/AppSimpleBar";
-import LeftbarTitle from "../../../components/LeftbarTitle";
-import BookMark from "./BookMark";
+import Loader from "../../../components/Loader.tsx";
+import AppSimpleBar from "../../../components/AppSimpleBar.tsx";
+import LeftbarTitle from "../../../components/LeftbarTitle.tsx";
+import BookMark from "./BookMark.tsx";
 
 // interface
-import { BookMarkTypes } from "../../../data/bookmarks";
+import { BookMarkTypes } from "../../../data/bookmarks.ts";
 
 interface IndexProps {}
 const Index = (props: IndexProps) => {

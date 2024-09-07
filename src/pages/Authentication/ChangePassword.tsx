@@ -2,7 +2,7 @@ import React from "react";
 import { Alert, Row, Col, Form } from "reactstrap";
 
 // hooks
-import { useRedux } from "../../hooks/index.ts/index";
+import { useRedux } from "../../hooks/index.ts";
 import { createSelector } from "reselect";
 // validations
 import { yupResolver } from "@hookform/resolvers/yup";
@@ -13,7 +13,7 @@ import { useForm } from "react-hook-form";
 // import { useProfile } from "../../hooks";
 
 //actions
-import { userChangePassword } from "../../redux/actions";
+import { userChangePassword } from "../../redux/auth/forgetpwd/actions.ts";
 
 // components
 import NonAuthLayoutWrapper from "../../components/NonAutnLayoutWrapper";

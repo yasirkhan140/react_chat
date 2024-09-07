@@ -2,7 +2,7 @@ import React from "react";
 import { NavItem, UncontrolledTooltip, NavLink } from "reactstrap";
 
 //constants
-import { LAYOUT_MODES } from "../constants/index";
+import { LAYOUT_MODES } from "../constant/layout.ts";
 
 interface LightDarkProps {
   layoutMode: any;

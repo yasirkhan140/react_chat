@@ -1,6 +1,6 @@
 import avatar1 from "../assets/images/users/avatar-1.jpg";
 import img4 from "../assets/images/small/img-4.jpg";
-import { DISPLAY_TYPES, STATUS_TYPES } from "../constants";
+import { DISPLAY_TYPES, STATUS_TYPES } from "../constant/settings.ts";
 
 export interface BasicDetailsTypes {
   firstName: string;

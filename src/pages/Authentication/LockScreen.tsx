@@ -13,9 +13,9 @@ import { useForm } from "react-hook-form";
 // import { useProfile } from "../../hooks";
 
 // components
-import NonAuthLayoutWrapper from "../../components/NonAutnLayoutWrapper";
-import AuthHeader from "../../components/AuthHeader";
-import FormInput from "../../components/FormInput";
+import NonAuthLayoutWrapper from "../../components/NonAutnLayoutWrapper.tsx";
+import AuthHeader from "../../components/AuthHeader.tsx";
+import FormInput from "../../components/FormInput.tsx";
 
 // images
 import avatar1 from "../../assets/images/users/avatar-1.jpg";

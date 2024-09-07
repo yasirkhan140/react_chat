@@ -12,7 +12,7 @@ import {
 } from "reactstrap";
 
 // interface
-import { BookMarkTypes } from "../src/data/bookmarks";
+import { BookMarkTypes } from "../data/bookmarks.ts";
 
 interface DataTypes {
   bookmarkTitle: string | null;

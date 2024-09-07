@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 import { Row, Col } from "reactstrap";
 
 // hooks
-import { useRedux } from "../../hooks/index.ts/index";
+import { useRedux } from "../../hooks/index.ts";
 
 // components
-import NonAuthLayoutWrapper from "../../components/NonAutnLayoutWrapper";
-import withRouter from "../../components/withRouter";
+import NonAuthLayoutWrapper from "../../components/NonAutnLayoutWrapper.tsx";
+import withRouter from "../../components/withRouter.tsx";
 
 // actions
-import { logoutUser } from "../../redux/actions";
+import { logoutUser } from "../../redux//auth/login/actions.ts";
 
 const Logout = (props: any) => {
   // global store

@@ -1,7 +1,7 @@
-import { STATUS_TYPES } from "../constants";
+import { STATUS_TYPES } from "../constant/settings.ts";
 
-import { contacts } from "./contacts";
-import { userChannels } from "./channels";
+import { contacts } from "./contacts.ts";
+import { userChannels } from "./channels.ts";
 export interface UserTypes {
   id: string | number;
   firstName: string;

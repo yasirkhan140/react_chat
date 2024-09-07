@@ -1,5 +1,5 @@
-import { APIClient } from "./apiCore";
-import * as url from "./urls";
+import { APIClient } from "./apiCore.ts";
+import * as url from "./urls.ts";
 
 const api = new APIClient();
 

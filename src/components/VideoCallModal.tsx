@@ -2,7 +2,7 @@ import React from "react";
 import { Button, Modal, ModalBody } from "reactstrap";
 
 // interface
-import { CallItem } from "../src/data/calls";
+import { CallItem } from "../data/calls.ts";
 
 //images
 import imagePlaceholder from "../assets/images/users/user-dummy-img.jpg";

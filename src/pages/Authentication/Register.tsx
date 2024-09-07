@@ -2,7 +2,7 @@ import React from "react";
 import { Alert, Row, Col, Form, Button, UncontrolledTooltip } from "reactstrap";
 
 // hooks
-import { useRedux } from "../../hooks/index.ts/index";
+import { useRedux } from "../../hooks/index.ts";
 
 // router
 import { Link, Navigate } from "react-router-dom";
@@ -13,16 +13,16 @@ import * as yup from "yup";
 import { useForm } from "react-hook-form";
 
 // hooks
-import { useProfile } from "../../hooks";
+import { useProfile } from "../../hooks/index.ts";
 import { createSelector } from "reselect";
 //actions
-import { registerUser } from "../../redux/actions";
+import { registerUser } from "../../redux/auth/register/actions.ts";
 
 // components
-import NonAuthLayoutWrapper from "../../components/NonAutnLayoutWrapper";
-import AuthHeader from "../../components/AuthHeader";
-import FormInput from "../../components/FormInput";
-import Loader from "../../components/Loader";
+import NonAuthLayoutWrapper from "../../components/NonAutnLayoutWrapper.tsx";
+import AuthHeader from "../../components/AuthHeader.tsx";
+import FormInput from "../../components/FormInput.tsx";
+import Loader from "../../components/Loader.tsx";
 
 interface RegisterProps {}
 const Register = (props: RegisterProps) => {

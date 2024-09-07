@@ -22,19 +22,19 @@ import * as yup from "yup";
 import { useForm } from "react-hook-form";
 
 // config
-import config from "../../config";
+import config from "../../config.ts";
 
 // hooks
-import { useProfile, useRedux } from "../../hooks/index";
+import { useProfile, useRedux } from "../../hooks/index.ts";
 import { createSelector } from "reselect";
 //actions
-import { loginUser, socialLogin } from "../../redux/auth/login/actions";
+import { loginUser, socialLogin } from "../../redux/auth/login/actions.ts";
 
 // components
-import NonAuthLayoutWrapper from "../../components/NonAutnLayoutWrapper";
-import AuthHeader from "../../components/AuthHeader";
-import FormInput from "../../components/FormInput";
-import Loader from "../../components/Loader";
+import NonAuthLayoutWrapper from "../../components/NonAutnLayoutWrapper.tsx";
+import AuthHeader from "../../components/AuthHeader.tsx";
+import FormInput from "../../components/FormInput.tsx";
+import Loader from "../../components/Loader.tsx";
 
 interface LoginProps {}
 const Login = (props: LoginProps) => {

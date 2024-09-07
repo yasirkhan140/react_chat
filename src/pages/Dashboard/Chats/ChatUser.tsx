@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import classnames from "classnames";
 
 // interface
-import { UserTypes } from "../../../data/chat";
-import { STATUS_TYPES } from "../../../constant/settings";
+import { UserTypes } from "../../../data/chat.ts";
+import { STATUS_TYPES } from "../../../constant/settings.ts";
 
 interface ChatUserProps {
   user: UserTypes;

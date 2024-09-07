@@ -9,10 +9,10 @@ import {
 import { Link } from "react-router-dom";
 
 // components
-import SectionTitle from "../pages/Dashboard/Profile/SectionTitle";
+import SectionTitle from "../pages/Dashboard/Profile/SectionTitle.tsx";
 
 // interface
-import { AttachedfileTypes, AttachedfileItemTypes } from "../src/data/myProfile";
+import { AttachedfileTypes, AttachedfileItemTypes } from "../data/myProfile.tsx";
 import { Card } from "reactstrap";
 interface AttachedFileItemProps {
   attachedFile: AttachedfileItemTypes;

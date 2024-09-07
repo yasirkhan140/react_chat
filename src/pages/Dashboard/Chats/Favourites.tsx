@@ -1,10 +1,10 @@
 import React from "react";
 
 // interface
-import { UserTypes } from "../../../data/chat";
+import { UserTypes } from "../../../data/chat.ts";
 
 // component
-import ChatUser from "./ChatUser";
+import ChatUser from "./ChatUser.tsx";
 interface FavouritesProps {
   users: Array<UserTypes>;
   selectedChat: string | number;

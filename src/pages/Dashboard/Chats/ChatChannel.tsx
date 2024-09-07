@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import classnames from "classnames";
 
 // interface
-import { ChannelTypes } from "../../../data/chat";
+import { ChannelTypes } from "../../../data/chat.ts";
 
 interface ChannelProps {
   channel: ChannelTypes;

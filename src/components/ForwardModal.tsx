@@ -3,20 +3,20 @@ import { Button, Modal, ModalHeader, ModalBody } from "reactstrap";
 import classnames from "classnames";
 
 // hooks
-import { useRedux } from "../hooks/index.ts/index";
+import { useRedux } from "../hooks/index.ts";
 
 // components
-import AppSimpleBar from "./AppSimpleBar";
+import AppSimpleBar from "./AppSimpleBar.tsx";
 
 // interfaces
-import { MessagesTypes, ContactTypes } from "../src/data";
+import { MessagesTypes, ContactTypes } from "../data/index.ts";
 
 // hooks
-import { useProfile, useContacts } from "../hooks";
+import { useProfile, useContacts } from "../hooks/index.ts";
 import { createSelector } from "reselect";
 //utils
-import { DivideByKeyResultTypes, divideByKey } from "../utils";
-import EmptyStateContacts from "./EmptyStateResult";
+import { DivideByKeyResultTypes, divideByKey } from "../utils/index.ts";
+import EmptyStateContacts from "./EmptyStateResult.tsx";
 interface ForwardMessageProps {
   forwardData: null | MessagesTypes | undefined;
   chatUserDetails: any;

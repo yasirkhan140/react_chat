@@ -1,5 +1,5 @@
-import { useProfile, useContacts, useConversationUserType} from './UserHooks'
-import { useRedux } from './useRedux'
+import { useProfile, useContacts, useConversationUserType} from './UserHooks.ts'
+import { useRedux } from './useRedux.ts'
 export {
     useProfile, useContacts, useConversationUserType,useRedux
 }

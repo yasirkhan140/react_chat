@@ -16,7 +16,7 @@ import img4 from "../assets/images/small/img-4.jpg";
 // interfaces
 import { ChannelTypes } from "./chat";
 import { MediaTypes, AttachedfileTypes } from "./myProfile";
-import { STATUS_TYPES } from "../constants";
+import { STATUS_TYPES } from "../constant/settings.ts";
 export interface ContactTypes {
   id: string | number;
   firstName: string;
