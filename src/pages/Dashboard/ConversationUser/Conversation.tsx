@@ -1,23 +1,23 @@
 import React, { useEffect, useRef, useCallback, useState } from "react";
 
 // hooks
-import { useRedux } from "../../../hooks/index.ts/index";
+import { useRedux } from "../../../hooks/index.ts";
 
 // hooks
-import { useProfile } from "../../../hooks";
+import { useProfile } from "../../../hooks/index.ts";
 import { createSelector } from "reselect";
 // components
-import AppSimpleBar from "../../../components/AppSimpleBar";
-import Loader from "../../../components/Loader";
-import Message from "./Message";
+import AppSimpleBar from "../../../components/AppSimpleBar.tsx";
+import Loader from "../../../components/Loader.tsx";
+import Message from "./Message.tsx";
 // import Day from "./Day";
 
 // interface
-import { MessagesTypes } from "../../../src/data/messages";
-import ForwardModal from "../../../components/ForwardModal";
+import { MessagesTypes } from "../../../data/messages.ts";
+import ForwardModal from "../../../components/ForwardModal.tsx";
 
 // actions
-import { forwardMessage, deleteImage } from "../../../redux/actions";
+import { forwardMessage, deleteImage } from "../../../redux/chats/actions.ts";
 interface ConversationProps {
   chatUserConversations: any;
   chatUserDetails: any;

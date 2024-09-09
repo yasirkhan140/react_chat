@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 
 // interface
-import { PrivacyTypes } from "../../../src/data/settings";
+import { PrivacyTypes } from "../../../data/settings.ts";
 
 // constants
-import { DISPLAY_TYPES } from "../../../constants/index";
+import { DISPLAY_TYPES } from "../../../constant/settings.ts";
 
 // components
-import DisplaySelect from "./DisplaySelect";
+import DisplaySelect from "./DisplaySelect.tsx";
 interface PrivacyProps {
   privacy: PrivacyTypes;
   onChangeSettings: (field: string, value: any) => void;

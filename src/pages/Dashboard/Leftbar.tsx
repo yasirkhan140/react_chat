@@ -2,18 +2,18 @@ import React from "react";
 import { TabContent, TabPane } from "reactstrap";
 
 // hooks
-import { useRedux } from "../../hooks/index.ts/index";
+import { useRedux } from "../../hooks/index.ts";
 import { createSelector } from "reselect";
 // constants
-import { TABS } from "../../constants/index";
+import { TABS } from "../../constant/layout.ts";
 
 // component
-import Profile from "./Profile/index";
-import Chats from "./Chats/index";
-import Contacts from "./Contacts/index";
-import Calls from "./Calls/index";
-import Bookmark from "./Bookmark/index";
-import Settings from "./Settings/index";
+import Profile from "./Profile/index.tsx";
+import Chats from "./Chats/index.tsx";
+import Contacts from "./Contacts/index.tsx";
+import Calls from "./Calls/index.tsx";
+import Bookmark from "./Bookmark/index.tsx";
+import Settings from "./Settings/index.tsx";
 
 interface LeftbarProps {}
 const Leftbar = (props: LeftbarProps) => {

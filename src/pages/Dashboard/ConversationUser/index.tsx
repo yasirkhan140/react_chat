@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 // hooks
-import { useRedux } from "../../../hooks/index.ts/index";
+import { useRedux } from "../../../hooks/index.ts";
 import { createSelector } from "reselect";
 // actions
 import {
@@ -14,21 +14,21 @@ import {
   deleteMessage,
   deleteUserMessages,
   toggleArchiveContact,
-} from "../../../redux/actions";
+} from "../../../redux/chats/actions.ts";
 
 // hooks
-import { useProfile } from "../../../hooks";
+import { useProfile } from "../../../hooks/index.ts";
 
 // components
-import UserHead from "./UserHead";
-import Conversation from "./Conversation";
-import ChatInputSection from "./ChatInputSection/index";
+import UserHead from "./UserHead.tsx";
+import Conversation from "./Conversation.tsx";
+import ChatInputSection from "./ChatInputSelection/index.tsx";
 
 // interface
-import { MessagesTypes } from "../../../src/data/messages";
+import { MessagesTypes } from "../../../data/messages.ts";
 
 // dummy data
-import { pinnedTabs } from "../../../src/data/index";
+import { pinnedTabs } from "../../../data/chat.ts";
 
 interface IndexProps {
   isChannel: boolean;

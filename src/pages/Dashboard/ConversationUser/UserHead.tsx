@@ -15,21 +15,21 @@ import { Link } from "react-router-dom";
 import classnames from "classnames";
 
 // hooks
-import { useRedux } from "../../../hooks/index.ts/index";
+import { useRedux } from "../../../hooks/index.ts";
 
 // components
-import AudioCallModal from "../../../components/AudioCallModal";
-import VideoCallModal from "../../../components/VideoCallModal";
-import AddPinnedTabModal from "../../../components/AddPinnedTabModal";
+import AudioCallModal from "../../../components/AudioCallModal.tsx";
+import VideoCallModal from "../../../components/VideoCallModal.tsx";
+import AddPinnedTabModal from "../../../components/AddPinnedTabModal.tsx";
 
 // interface
-import { PinTypes } from "../../../src/data/chat";
+import { PinTypes } from "../../../data/chat.ts";
 
 // actions
-import { changeSelectedChat } from "../../../redux/actions";
+import { changeSelectedChat } from "../../../redux/actions.ts";
 
 // constants
-import { STATUS_TYPES } from "../../../constants";
+import { STATUS_TYPES } from "../../../constant/settings.ts";
 interface ProfileImageProps {
   chatUserDetails: any;
   onCloseConversation: () => any;

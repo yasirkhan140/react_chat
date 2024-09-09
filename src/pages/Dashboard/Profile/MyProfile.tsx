@@ -8,7 +8,7 @@ import {
 } from "reactstrap";
 
 // interface
-import { BasicDetailsTypes } from "../../../src/data/myProfile";
+import { BasicDetailsTypes } from "../../../data/myProfile.ts";
 
 interface MyProfileProps {
   basicDetails: BasicDetailsTypes;

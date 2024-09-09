@@ -2,16 +2,16 @@ import React from "react";
 import classnames from "classnames";
 
 // hooks
-import { useRedux } from "../../hooks/index.ts/index";
+import { useRedux } from "../../hooks/index.ts";
 
 // hooks
-import { useConversationUserType } from "../../hooks/index.ts/index";
+import { useConversationUserType } from "../../hooks/index.ts";
 import { createSelector } from "reselect";
 // component
-import Leftbar from "./Leftbar";
-import ConversationUser from "./ConversationUser/index";
-import UserProfileDetails from "./UserProfileDetails/index";
-import Welcome from "./ConversationUser/Welcome";
+import Leftbar from "./Leftbar.tsx";
+import ConversationUser from "./ConversationUser/index.tsx";
+import UserProfileDetails from "./UserProfile/index.tsx";
+import Welcome from "./ConversationUser/Welcome.tsx";
 
 interface IndexProps {}
 const Index = (props: IndexProps) => {

@@ -3,10 +3,10 @@ import React, { useEffect, useState } from "react";
 import { Collapse, Card, CardBody } from "reactstrap";
 
 // interface
-import { MessagesTypes } from "../../../../data/messages";
+import { MessagesTypes } from "../../../../data/messages.ts";
 
 // hooks
-import { useProfile } from "../../../../hooks";
+import { useProfile } from "../../../../hooks/index.ts";
 
 interface ReplyProps {
   reply: null | MessagesTypes | undefined;

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 // hooks
-import { useRedux } from "../../../hooks/index";
+import { useRedux } from "../../../hooks/index.ts";
 
 // actions
 import {

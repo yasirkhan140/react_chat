@@ -1,11 +1,11 @@
 import React from "react";
 
 // interface
-import { ThemeTypes } from "../../../src/data/settings";
+import { ThemeTypes } from "../../../data/settings.ts";
 
 // components
-import ThemeColor from "./ThemeColor";
-import ThemeImage from "./ThemeImage";
+import ThemeColor from "./ThemeColor.tsx";
+import ThemeImage from "./ThemeImage.tsx";
 
 interface ThemeSettingsProps {
   theme: ThemeTypes;

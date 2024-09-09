@@ -12,7 +12,7 @@ import classnames from "classnames";
 import imagePlaceholder from "../../../assets/images/users/user-dummy-img.jpg";
 
 // constants
-import { STATUS_TYPES } from "../../../constants";
+import { STATUS_TYPES } from "../../../constant/settings.ts";
 interface ProfileUserProps {
   onCloseUserDetails: () => any;
   chatUserDetails: any;

@@ -9,10 +9,10 @@ import {
 import classnames from "classnames";
 
 // interface
-import { BasicDetailsTypes } from "../../../src/data/settings";
+import { BasicDetailsTypes } from "../../../data/settings.ts";
 
 // CONSTANTS
-import { STATUS_TYPES } from "../../../constants";
+import { STATUS_TYPES } from "../../../constant/settings.ts";
 interface UserProfileProps {
   basicDetails: BasicDetailsTypes;
   status: STATUS_TYPES;

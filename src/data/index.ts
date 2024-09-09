@@ -50,5 +50,5 @@ export {
   // archive
   archiveChats,
   onChangeArchives,
-  MessagesTypes, ContactTypes
+  MessagesTypes, ContactTypes,
 };

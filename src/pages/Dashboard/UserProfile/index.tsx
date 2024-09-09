@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import classnames from "classnames";
 import { createSelector } from "reselect";
 // hooks
-import { useRedux } from "../../../hooks/index";
+import { useRedux } from "../../../hooks/index.ts";
 
 // actions
 import {
@@ -10,21 +10,21 @@ import {
   toggleFavouriteContact,
   getChatUserDetails,
   toggleArchiveContact,
-} from "../../../redux/actions";
+} from "../../../redux/actions.ts";
 
 // components
-import AudioCallModal from "../../../components/AudioCallModal";
-import VideoCallModal from "../../../components/VideoCallModal";
-import AppSimpleBar from "../../../components/AppSimpleBar";
-import Loader from "../../../components/Loader";
-import ProfileUser from "./ProfileUser";
-import Actions from "./Actions";
-import BasicDetails from "./BasicDetails";
-import Groups from "./Groups";
-import Media from "../../../components/Media";
-import AttachedFiles from "../../../components/AttachedFiles";
-import Status from "./Status";
-import Members from "./Members";
+import AudioCallModal from "../../../components/AudioCallModal.tsx";
+import VideoCallModal from "../../../components/VideoCallModal.tsx";
+import AppSimpleBar from "../../../components/AppSimpleBar.tsx";
+import Loader from "../../../components/Loader.tsx";
+import ProfileUser from "./ProfileUser.tsx";
+import Actions from "./Actions.tsx";
+import BasicDetails from "./BasicDetails.tsx";
+import Groups from "./Groups.tsx";
+import Media from "../../../components/Media.tsx";
+import AttachedFiles from "../../../components/AttachedFiles.tsx";
+import Status from "./Status.tsx";
+import Members from "./Members.tsx";
 
 interface IndexProps {
   isChannel: boolean;

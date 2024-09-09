@@ -9,7 +9,7 @@ import classnames from "classnames";
 import { Link } from "react-router-dom";
 
 // components
-import LightBox from "../../../components/LightBox";
+import LightBox from "../../../components/LightBox.tsx";
 
 //images
 import imagePlaceholder from "../../../assets/images/users/user-dummy-img.jpg";
@@ -19,14 +19,14 @@ import {
   MessagesTypes,
   ImageTypes,
   AttachmentTypes,
-} from "../../../src/data/messages";
+} from "../../../data/messages.ts";
 
 // hooks
-import { useProfile } from "../../../hooks";
+import { useProfile } from "../../../hooks/index.ts";
 
 // utils
-import { formateDate } from "../../../utils";
-import RepliedMessage from "./RepliedMessage";
+import { formateDate } from "../../../utils/index.ts";
+import RepliedMessage from "./RepliedMessage.tsx";
 
 interface MenuProps {
   onDelete: () => any;

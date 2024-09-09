@@ -3,17 +3,17 @@ pages
 */
 //root
 import React from 'react'
-import Root from "../pages/Root/index";
-import Login from "../pages/Authentication/Login";
-import Logout from "../pages/Authentication/Logout";
-import Register from "../pages/Authentication/Register";
-import RecoverPassword from "../pages/Authentication/RecoverPassword";
-import ChangePassword from "../pages/Authentication/ChangePassword";
-import LockScreen from "../pages/Authentication/LockScreen";
+import Root from "../pages/Root/index.ts";
+import Login from "../pages/Authentication/Login.tsx";
+import Logout from "../pages/Authentication/Logout.tsx";
+import Register from "../pages/Authentication/Register.tsx";
+import RecoverPassword from "../pages/Authentication/RecoverPassword.tsx";
+import ChangePassword from "../pages/Authentication/ChangePassword.tsx";
+import LockScreen from "../pages/Authentication/LockScreen.tsx";
 
 // dashboard
-import Dashboard from "../pages/Dashboard/index";
-import StarterPage from "../pages/StarterPage/index";
+import Dashboard from "../pages/Dashboard/index.tsx";
+import StarterPage from "../pages/StarterPage/index.tsx";
 
 interface RouteProps {
   path: string;

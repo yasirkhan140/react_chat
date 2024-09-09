@@ -2,7 +2,7 @@
 import classnames from "classnames";
 
 // interface
-import { ThemeTypes } from "../../../src/data/settings";
+import { ThemeTypes } from "../../../data/settings.ts";
 
 const changeColor = (id: string) => {
   const element = document.getElementById(`color-${id}`);

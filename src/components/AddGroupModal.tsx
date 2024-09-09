@@ -14,7 +14,7 @@ import {
 } from "reactstrap";
 
 //utils
-import { DivideByKeyResultTypes } from "../utils";
+import { DivideByKeyResultTypes } from "../utils/arrayutils.ts";
 
 // interfaaces
 import { ContactTypes } from "../data/contacts.ts";
@@ -22,7 +22,7 @@ import { useContacts } from "../hooks/index.ts";
 import { CreateChannelPostData } from "../redux/chats/actions.ts";
 
 // components
-import AppSimpleBar from "./AppSimpleBar";
+import AppSimpleBar from "./AppSimpleBar.tsx";
 
 interface DataTypes {
   id: any;

@@ -9,7 +9,7 @@ import MoreMenu from "./MoreMenu.tsx";
 import Reply from "./Reply.tsx";
 
 // interface
-import { MessagesTypes } from "../../../../data/messages";
+import { MessagesTypes } from "../../../../data/messages.js";
 
 interface IndexProps {
   onSend: (data: any) => void;

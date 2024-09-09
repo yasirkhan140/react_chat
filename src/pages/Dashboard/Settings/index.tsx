@@ -3,27 +3,27 @@ import { Button, Collapse } from "reactstrap";
 import classnames from "classnames";
 import { createSelector } from "reselect";
 // hooks
-import { useRedux } from "../../../hooks/index.ts/index";
+import { useRedux } from "../../../hooks/index.ts";
 
 // actions
-import { getSettings, updateSettings } from "../../../redux/actions";
+import { getSettings, updateSettings } from "../../../redux/settings/actions.ts";
 
 // constants
-import { SETTINGS_COLLAPSES } from "../../../constants";
+import { SETTINGS_COLLAPSES } from "../../../constant/settings.ts";
 
 // interface
-import { SettingsTypes } from "../../../src/data/settings";
+import { SettingsTypes } from "../../../data/settings.ts";
 
 // components
-import Loader from "../../../components/Loader";
-import AppSimpleBar from "../../../components/AppSimpleBar";
-import UserCoverImage from "./UserCoverImage";
-import UserProfile from "./UserProfile";
-import PersonalInfo from "./PersonalInfo";
-import ThemeSettings from "./ThemeSettings";
-import Privacy from "./Privacy";
-import Security from "./Security";
-import Help from "./Help";
+import Loader from "../../../components/Loader.tsx";
+import AppSimpleBar from "../../../components/AppSimpleBar.tsx";
+import UserCoverImage from "./UserCoverImage.tsx";
+import UserProfile from "./UserProfile.tsx";
+import PersonalInfo from "./PersonalInfo.tsx";
+import ThemeSettings from "./ThemeSettings.tsx";
+import Privacy from "./Privacy.tsx";
+import Security from "./Security.tsx";
+import Help from "./Help.tsx";
 
 interface CollapseItemTypes {
   value:

@@ -4,10 +4,10 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 // actions
-import { changelayoutMode } from "../../redux/actions";
+import { changelayoutMode } from "../../redux/layout/actions.ts";
 
 // components
-import SideMenu from "./SideMenu";
+import SideMenu from "./SideMenu.tsx";
 import { useDispatch, useSelector } from "react-redux";
 import { createSelector } from "reselect";
 

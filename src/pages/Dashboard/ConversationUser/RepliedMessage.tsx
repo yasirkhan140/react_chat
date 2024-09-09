@@ -1,10 +1,10 @@
 import React from "react";
 
 // interface
-import { MessagesTypes } from "../../../src/data/messages";
+import { MessagesTypes } from "../../../data/messages.ts";
 
 // hooks
-import { useProfile } from "../../../hooks";
+import { useProfile } from "../../../hooks/index.ts";
 
 interface RepliedMessageProps {
   isFromMe: boolean;

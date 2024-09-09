@@ -4,8 +4,8 @@ import classnames from "classnames";
 import { Badge } from "reactstrap";
 
 // hooks
-import { useRedux } from "../../../hooks/index";
-import { useContacts } from "../../../hooks";
+import { useRedux } from "../../../hooks/index.ts";
+import { useContacts } from "../../../hooks/index.ts";
 
 // actions
 import {
@@ -13,7 +13,7 @@ import {
   getChatUserDetails,
   getChatUserConversations,
   changeSelectedChat,
-} from "../../../redux/actions";
+} from "../../../redux/actions.ts";
 
 interface GroupProps {
   member: any;

@@ -1,6 +1,8 @@
-import { getContacts, inviteContact, resetContacts } from '../redux/contacts/actions';
-import { getChannelDetails, getChatUserDetails, getChatUserConversations, changeSelectedChat } from '../redux/chats/actions';
-import { loginUser } from '../redux/auth/login/actions';
+import { getContacts, inviteContact, resetContacts } from './contacts/actions.ts';
+import { getChannelDetails, getChatUserDetails, getChatUserConversations, changeSelectedChat } from './chats/actions.ts';
+import { loginUser } from '../redux/auth/login/actions.ts';
+import { toggleUserDetailsTab, toggleFavouriteContact } from './chats/actions.ts';
+import { toggleArchiveContact } from './chats/actions.ts';
 export {
     getContacts,
   inviteContact,
@@ -9,5 +11,8 @@ export {
   getChatUserDetails,
   getChatUserConversations,
   changeSelectedChat,
-  loginUser
+  loginUser,
+  toggleUserDetailsTab,
+  toggleFavouriteContact,
+  toggleArchiveContact
 }
