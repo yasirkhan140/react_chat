@@ -2,6 +2,11 @@ import React from "react";
 
 // scss
 import "./assets/scss/theme.scss";
+import "./assets/scss/chat-left.scss";
+import "./assets/scss/custom-scrollbar.scss";
+import "./assets/scss/navbar.scss";
+import "./assets/scss/custom.scss";
+import "./assets/scss/sidebar.scss";
 
 //Route
 import Routes from "./router/index.tsx";
