@@ -1,7 +1,7 @@
 import React from "react";
 
 // scss
-// import "./assets/scss/theme.scss";
+import "./assets/scss/theme.scss";
 
 //Route
 import Routes from "./router/index.tsx";

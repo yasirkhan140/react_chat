@@ -5,7 +5,7 @@ import { Provider } from "react-redux";
 import reportWebVitals from "./reportWebVitals.ts";
 import { configureStore } from "./redux/store.ts";
 import { BrowserRouter } from "react-router-dom";
-
+import 'bootstrap/dist/css/bootstrap.css';
 const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement);
 root.render(
   <Provider store={configureStore({})}>
