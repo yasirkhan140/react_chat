@@ -1,4 +1,4 @@
-import { AuthForgetPassActionTypes, AuthForgetPassState } from "./types";
+import { AuthForgetPassActionTypes, AuthForgetPassState } from "./types.ts";
 
 export const INIT_STATE: AuthForgetPassState = {
   forgetSuccessMsg: null,

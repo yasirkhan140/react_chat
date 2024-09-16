@@ -1,8 +1,4 @@
-import image4 from "../assets/images/small/img-4.jpg";
-import avatar1 from "../assets/images/users/avatar-1.jpg";
-import img1 from "../assets/images/small/img-1.jpg";
-import img2 from "../assets/images/small/img-2.jpg";
-import img4 from "../assets/images/small/img-4.jpg";
+
 
 export interface BasicDetailsTypes {
   firstName: string;
@@ -53,70 +49,70 @@ const profileDetails: ProfileDetailsTypes = {
     fullName: "Adam Zampa",
     email: "admin@themesbrand.com",
     location: "California, USA",
-    avatar: avatar1,
-    coverImage: image4,
+    avatar: "avatar1",
+    coverImage: "image4",
   },
   media: {
     total: 17,
     list: [
       {
         id: 1,
-        url: img1,
+        url: "avatar5",
       },
       {
         id: 2,
-        url: img2,
+        url: "img2",
       },
       {
         id: 3,
-        url: img4,
+        url: "img4",
       },
       {
         id: 4,
-        url: img1,
+        url: "avatar5",
       },
       {
         id: 5,
-        url: img1,
+        url: "avatar5",
       },
       {
         id: 6,
-        url: img1,
+        url: "avatar5",
       },
       {
         id: 7,
-        url: img1,
+        url: "avatar5",
       },
       {
         id: 8,
-        url: img1,
+        url: "avatar5",
       }, {
         id: 9,
-        url: img1,
+        url: "avatar5",
       }, {
         id: 10,
-        url: img1,
+        url: "avatar5",
       }, {
         id: 11,
-        url: img1,
+        url: "avatar5",
       }, {
         id: 12,
-        url: img1,
+        url: "avatar5",
       }, {
         id: 13,
-        url: img1,
+        url: "avatar5",
       }, {
         id: 14,
-        url: img1,
+        url: "avatar5",
       }, {
         id: 15,
-        url: img1,
+        url: "avatar5",
       }, {
         id: 16,
-        url: img1,
+        url: "avatar5",
       }, {
         id: 17,
-        url: img1,
+        url: "avatar5",
       },
     ],
   },

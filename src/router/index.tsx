@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import DefaultLayout from "../layouts/Default/index.ts";
+import DefaultLayout from "../layouts/Default/index.tsx";
 
 // layouts
 import NonAuthLayout from "../layouts/NonAuth/index.tsx";

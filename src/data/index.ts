@@ -14,8 +14,8 @@ import {
   onChangeArchives,
 } from "./chat.ts";
 import { conversations, onChangeConversations } from "./messages.ts";
-import { MessagesTypes } from './messages';
-import { ContactTypes } from './contacts';
+
+
 
 export {
   //Profile,
@@ -50,5 +50,5 @@ export {
   // archive
   archiveChats,
   onChangeArchives,
-  MessagesTypes, ContactTypes,
+   
 };

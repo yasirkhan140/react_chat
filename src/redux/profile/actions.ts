@@ -1,4 +1,4 @@
-import { ProfileActionTypes } from "./types";
+import { ProfileActionTypes } from "./types.ts";
 
 // common success
 export const profileApiResponseSuccess = (actionType: string, data: any) => ({

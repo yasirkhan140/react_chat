@@ -1,26 +1,26 @@
 import { takeEvery, fork, put, all, call } from "redux-saga/effects";
 
 // Redux State
-import { BookmarksActionTypes } from "./types";
+import { BookmarksActionTypes } from "./types.ts";
 
 // actions
 import {
   bookmarksApiResponseSuccess,
   bookmarksApiResponseError,
-} from "./actions";
+} from "./actions.ts";
 
 // api
 import {
   getBookmarks as getBookmarksApi,
   updateBookmark as updateBookmarkApi,
   deleteBookmark as deleteBookmarkApi,
-} from "../../api/index";
+} from "../../api/bookmarks.ts";
 
 // helpers
 import {
   showSuccessNotification,
   showErrorNotification,
-} from "../../helpers/notifications";
+} from "../../helper/notifications.ts";
 
 function* getBookmarks() {
   try {

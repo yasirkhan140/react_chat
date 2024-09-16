@@ -1,4 +1,4 @@
-import { AuthRegisterActionTypes } from "./types";
+import { AuthRegisterActionTypes } from "./types.ts";
 
 // common success
 export const authRegisterApiResponseSuccess = (

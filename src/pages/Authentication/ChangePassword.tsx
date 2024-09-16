@@ -16,13 +16,12 @@ import { useForm } from "react-hook-form";
 import { userChangePassword } from "../../redux/auth/forgetpwd/actions.ts";
 
 // components
-import NonAuthLayoutWrapper from "../../components/NonAutnLayoutWrapper";
-import AuthHeader from "../../components/AuthHeader";
-import FormInput from "../../components/FormInput";
-import Loader from "../../components/Loader";
+import NonAuthLayoutWrapper from "../../components/NonAutnLayoutWrapper.tsx";
+import AuthHeader from "../../components/AuthHeader.tsx";
+import FormInput from "../../components/FormInput.tsx";
+import Loader from "../../components/Loader.tsx";
 
 //images
-import avatar1 from "../../assets/images/users/avatar-1.jpg";
 
 interface ChangePasswordProps {}
 const ChangePassword = (props: ChangePasswordProps) => {
@@ -83,7 +82,7 @@ const ChangePassword = (props: ChangePasswordProps) => {
             <AuthHeader title="Change Password" />
             <div className="user-thumb text-center mb-4">
               <img
-                src={avatar1}
+                src={"/"}
                 className="rounded-circle img-thumbnail avatar-lg"
                 alt="thumbnail"
               />

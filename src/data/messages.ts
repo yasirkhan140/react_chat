@@ -1,7 +1,7 @@
+import exp from "node:constants";
 import { contacts, ContactTypes } from "./contacts.ts";
 import { myData } from "./myProfile.ts";
-import img1 from "../assets/images/small/img-1.jpg";
-import img2 from "../assets/images/small/img-2.jpg";
+
 
 export interface AttachmentTypes {
   id: number;
@@ -120,11 +120,11 @@ let conversations: ConversationTypes[] = [
         image: [
           {
             id: 1,
-            downloadLink: img1,
+            downloadLink: "img1",
           },
           {
             id: 2,
-            downloadLink: img2,
+            downloadLink: "img2",
           },
         ],
       },

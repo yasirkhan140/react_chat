@@ -4,7 +4,7 @@ import { Container, Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
 
 // images
-import authImage from "../assets/images/auth-img.png";
+
 
 interface NonAuthLayoutWrapperProps {
   children: any;
@@ -30,7 +30,7 @@ const NonAuthLayoutWrapper = (props: NonAuthLayoutWrapperProps) => {
                   </p>
                 </div>
                 <div className="mt-auto">
-                  <img src={authImage} alt="auth" className="auth-img" />
+                  <img src={""} alt="auth" className="auth-img" />
                 </div>
               </div>
             </Col>

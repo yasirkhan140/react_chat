@@ -9,7 +9,7 @@ import {
 import classnames from "classnames";
 
 //images
-import imagePlaceholder from "../../../assets/images/users/user-dummy-img.jpg";
+
 
 // constants
 import { STATUS_TYPES } from "../../../constant/settings.ts";
@@ -30,7 +30,7 @@ const ProfileUser = ({
 
   const profile = chatUserDetails.profileImage
     ? chatUserDetails.profileImage
-    : imagePlaceholder;
+    : "avatar5";
   const fullName =
     chatUserDetails.name === undefined
       ? chatUserDetails.firstName

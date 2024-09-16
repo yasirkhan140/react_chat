@@ -12,20 +12,20 @@ import {
 } from "reactstrap";
 
 // hooks
-import { useRedux } from "../hooks/index.ts/index";
+import { useRedux } from "../hooks/index.ts";
 
 // components
-import AppSimpleBar from "./AppSimpleBar";
-import EmptyStateResult from "./EmptyStateResult";
+import AppSimpleBar from "./AppSimpleBar.tsx";
+import EmptyStateResult from "./EmptyStateResult.tsx";
 
 //utils
-import { DivideByKeyResultTypes, divideByKey } from "../utils";
-
+import { divideByKey } from "../utils/index.ts";
+import { DivideByKeyResultTypes } from "../utils/arrayutils.ts";
 // interfaaces
-import { ContactTypes } from "../src/data/contacts";
+import { ContactTypes } from "../data/contacts.ts";
 
 // hooks
-import { useContacts } from "../hooks";
+import { useContacts } from "../hooks/index.ts";
 import { createSelector } from "reselect";
 
 interface ContactItemProps {

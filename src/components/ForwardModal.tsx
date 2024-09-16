@@ -9,13 +9,14 @@ import { useRedux } from "../hooks/index.ts";
 import AppSimpleBar from "./AppSimpleBar.tsx";
 
 // interfaces
-import { MessagesTypes, ContactTypes } from "../data/index.ts";
-
+import { MessagesTypes } from "../data/messages.ts";
+import { ContactTypes } from "../data/contacts.ts";
 // hooks
 import { useProfile, useContacts } from "../hooks/index.ts";
 import { createSelector } from "reselect";
 //utils
-import { DivideByKeyResultTypes, divideByKey } from "../utils/index.ts";
+import {  divideByKey } from "../utils/index.ts";
+import { DivideByKeyResultTypes } from "../utils/arrayutils.ts";
 import EmptyStateContacts from "./EmptyStateResult.tsx";
 interface ForwardMessageProps {
   forwardData: null | MessagesTypes | undefined;

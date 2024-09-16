@@ -1,8 +1,8 @@
 // @flow
 import { all, call, fork, takeEvery } from "redux-saga/effects";
 
-import { LayoutActionTypes } from "./types";
-import { LAYOUT_MODES } from "../../constants/index";
+import { LayoutActionTypes } from "./types.ts";
+import { LAYOUT_MODES } from "../../constant/layout.ts";
 
 /**
  * Changes the body attribute

@@ -10,7 +10,7 @@ import {
   getChatUserDetails,
   getChatUserConversations,
   changeSelectedChat,
-} from "../../../redux/actions";
+} from "../../../redux/actions.ts";
 
 interface GroupProps {
   group: any;

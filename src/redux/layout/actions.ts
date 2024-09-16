@@ -1,4 +1,4 @@
-import { LayoutActionTypes } from "./types";
+import { LayoutActionTypes } from "./types.ts";
 
 export const changeTab = (layoutMode: any) => ({
   type: LayoutActionTypes.CHANGE_TAB,

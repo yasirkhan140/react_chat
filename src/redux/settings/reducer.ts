@@ -1,5 +1,5 @@
 // types
-import { SettingsActionTypes, SettingsState } from "./types";
+import { SettingsActionTypes, SettingsState } from "./types.ts";
 
 export const INIT_STATE: SettingsState = {
   settings: {},

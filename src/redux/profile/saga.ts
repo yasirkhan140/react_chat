@@ -1,10 +1,10 @@
 import { takeEvery, fork, put, all, call } from "redux-saga/effects";
 
 // Login Redux States
-import { ProfileActionTypes } from "./types";
-import { profileApiResponseSuccess, profileApiResponseError } from "./actions";
+import { ProfileActionTypes } from "./types.ts";
+import { profileApiResponseSuccess, profileApiResponseError } from "./actions.ts";
 
-import { getProfileDetails as getProfileDetailsApi } from "../../api/index";
+import { getProfileDetails as getProfileDetailsApi } from "../../api/profile.ts";
 
 function* getProfileDetails() {
   try {

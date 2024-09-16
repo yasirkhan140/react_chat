@@ -18,7 +18,7 @@ import AuthHeader from "../../components/AuthHeader.tsx";
 import FormInput from "../../components/FormInput.tsx";
 
 // images
-import avatar1 from "../../assets/images/users/avatar-1.jpg";
+
 
 interface LockScreenProps {}
 const LockScreen = (props: LockScreenProps) => {
@@ -55,7 +55,7 @@ const LockScreen = (props: LockScreenProps) => {
             />
             <div className="user-thumb text-center mb-4">
               <img
-                src={avatar1}
+                src={"avatar5"}
                 className="rounded-circle img-thumbnail avatar-lg"
                 alt="thumbnail"
               />

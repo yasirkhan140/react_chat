@@ -3,7 +3,7 @@ pages
 */
 //root
 import React from 'react'
-import Root from "../pages/Root/index.ts";
+import Root from "../pages/Root/index.tsx";
 import Login from "../pages/Authentication/Login.tsx";
 import Logout from "../pages/Authentication/Logout.tsx";
 import Register from "../pages/Authentication/Register.tsx";

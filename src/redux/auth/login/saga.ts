@@ -1,22 +1,22 @@
 import { call, put, takeEvery, takeLatest } from "redux-saga/effects";
 
 // Login Redux States
-import { AuthLoginActionTypes } from "./types";
+import { AuthLoginActionTypes } from "./types.ts";
 import {
   authLoginApiResponseSuccess,
   authLoginApiResponseError,
-} from "./actions";
+} from "./actions.ts";
 
 //Include Both Helper File with needed methods
 import {
   getFirebaseBackend,
   setLoggeedInUser,
-} from "../../../helpers/firebase_helper";
+} from "../../../helper/firebase_helper.js";
 import {
   postFakeLogin,
   postJwtLogin,
   postSocialLogin,
-} from "../../../api/index";
+} from "../../../api/auth.ts";
 
 const fireBaseBackend = getFirebaseBackend();
 

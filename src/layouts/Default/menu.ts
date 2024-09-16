@@ -1,5 +1,5 @@
 // costants
-import { TABS } from "../../constants/index";
+import { TABS } from "../../constant/layout.ts";
 
 export interface MenuItemType {
   id: number;

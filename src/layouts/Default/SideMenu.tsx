@@ -13,20 +13,19 @@ import {
 } from "reactstrap";
 import { createSelector } from "reselect";
 // hooks
-import { useRedux } from "../../hooks/index";
+import { useRedux } from "../../hooks/index.ts";
 
 // actions
-import { changeTab } from "../../redux/actions";
+import { changeTab } from "../../redux/layout/actions.ts";
 
 // costants
-import { TABS } from "../../constants/index";
-import LightDarkMode from "../../components/LightDarkMode";
+import { TABS } from "../../constant/layout.ts"; 
+import LightDarkMode from "../../components/LightDarkMode.tsx";
 
-//images
-import avatar1 from "../../assets/images/users/avatar-1.jpg";
+
 
 // menu
-import { MENU_ITEMS, MenuItemType } from "./menu";
+import { MENU_ITEMS, MenuItemType } from "./menu.ts";
 
 const LogoLightSVG = () => {
   return (
@@ -138,7 +137,7 @@ const ProfileDropdownMenu = ({ onChangeTab }: ProfileDropdownMenuProps) => {
       toggle={toggle}
     >
       <DropdownToggle nav className="bg-transparent">
-        <img src={avatar1} alt="" className="profile-user rounded-circle" />
+        <img src={"avatar5"} alt="" className="profile-user rounded-circle" />
       </DropdownToggle>
       <DropdownMenu>
         <DropdownItem

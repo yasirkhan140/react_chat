@@ -1,16 +1,16 @@
 import { all } from "redux-saga/effects";
 
 //auth
-import registerSaga from "./auth/register/saga";
-import loginSaga from "./auth/login/saga";
-import forgetPasswordSaga from "./auth/forgetpwd/saga";
-import profileSaga from "./profile/saga";
-import LayoutSaga from "./layout/saga";
-import contactsSaga from "./contacts/saga";
-import callsSaga from "./calls/saga";
-import bookmarksSaga from "./bookmarks/saga";
-import settingsSaga from "./settings/saga";
-import chatsSaga from "./chats/saga";
+import registerSaga from "./auth/register/saga.ts";
+import loginSaga from "./auth/login/saga.ts";
+import forgetPasswordSaga from "./auth/forgetpwd/saga.ts";
+import profileSaga from "./profile/saga.ts";
+import LayoutSaga from "./layout/saga.ts";
+import contactsSaga from "./contacts/saga.ts";
+import callsSaga from "./calls/saga.ts";
+import bookmarksSaga from "./bookmarks/saga.ts";
+import settingsSaga from "./settings/saga.ts";
+import chatsSaga from "./chats/saga.ts";
 
 export default function* rootSaga() {
   yield all([

@@ -5,7 +5,6 @@ import { Button, Modal, ModalBody } from "reactstrap";
 import { CallItem } from "../data/calls.ts";
 
 //images
-import imagePlaceholder from "../assets/images/users/user-dummy-img.jpg";
 interface AudioCallModalProps {
   isOpen: boolean;
   onClose: () => void;
@@ -27,7 +26,7 @@ const AudioCallModal = ({ isOpen, onClose, user }: AudioCallModalProps) => {
           <div className="avatar-xl mx-auto mb-4">
             <img
               src={
-                user && user.profileImage ? user.profileImage : imagePlaceholder
+                user && user.profileImage ? user.profileImage : ""
               }
               alt=""
               className="img-thumbnail rounded-circle"

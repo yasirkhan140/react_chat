@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 import LightBox from "../../../components/LightBox.tsx";
 
 //images
-import imagePlaceholder from "../../../assets/images/users/user-dummy-img.jpg";
+
 
 // interface
 import {
@@ -323,14 +323,14 @@ const Message = ({
 
   const myProfile = userProfile.profileImage
     ? userProfile.profileImage
-    : imagePlaceholder;
+    : "avatar5";
   const channeluserProfile =
     message.meta.userData && message.meta.userData.profileImage
       ? message.meta.userData.profileImage
-      : imagePlaceholder;
+      : "avatar5";
   const chatUserprofile = chatUserDetails.profileImage
     ? chatUserDetails.profileImage
-    : imagePlaceholder;
+    : "avatar5";
   const profile = isChannel ? channeluserProfile : chatUserprofile;
   const date = formateDate(message.time, "hh:mmaaa");
   const isSent = message.meta.sent;

@@ -1,5 +1,5 @@
 // types
-import { BookmarksActionTypes, BookmarksState } from "./types";
+import { BookmarksActionTypes, BookmarksState } from "./types.ts";
 
 export const INIT_STATE: BookmarksState = {
   bookmarks: [],

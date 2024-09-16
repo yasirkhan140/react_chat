@@ -1,4 +1,4 @@
-import { ContactsActionTypes } from "./types";
+import { ContactsActionTypes } from "./types.ts";
 
 // common success
 export const contactsApiResponseSuccess = (actionType: string, data: any) => ({

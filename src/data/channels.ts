@@ -2,8 +2,6 @@
 import { contacts } from "./contacts.ts";
 import { MediaTypes, AttachedfileTypes } from "./myProfile";
 
-import img1 from "../assets/images/small/img-1.jpg";
-import img2 from "../assets/images/small/img-2.jpg";
 
 // interface
 import { ContactTypes } from "./contacts";
@@ -30,11 +28,11 @@ let userChannels: ChannelDataTypes[] = [
       list: [
         {
           id: 1,
-          url: img1,
+          url: "img1",
         },
         {
           id: 2,
-          url: img2,
+          url: "img2",
         },
       ],
     },

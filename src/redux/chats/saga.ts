@@ -1,8 +1,8 @@
 import { takeEvery, fork, put, all, call } from "redux-saga/effects";
 
 // Login Redux States
-import { ChatsActionTypes } from "./types";
-import { chatsApiResponseSuccess, chatsApiResponseError } from "./actions";
+import { ChatsActionTypes } from "./types.ts";
+import { chatsApiResponseSuccess, chatsApiResponseError } from "./actions.ts";
 
 import {
   getFavourites as getFavouritesApi,
@@ -25,19 +25,19 @@ import {
   toggleArchiveContact as toggleArchiveContactApi,
   readConversation as readConversationApi,
   deleteImage as deleteImageApi,
-} from "../../api/index";
+} from "../../api/chats.ts";
 
 import {
   showSuccessNotification,
   showErrorNotification,
-} from "../../helpers/notifications";
+} from "../../helper/notifications.ts";
 
 //actions
 import {
   getDirectMessages as getDirectMessagesAction,
   getFavourites as getFavouritesAction,
   getChannels as getChannelsAction,
-} from "./actions";
+} from "./actions.ts";
 
 function* getFavourites() {
   try {

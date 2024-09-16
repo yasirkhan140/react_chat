@@ -1,4 +1,4 @@
-import { ChatsActionTypes } from "./types";
+import { ChatsActionTypes } from "./types.ts";
 
 // common success
 export const chatsApiResponseSuccess = (actionType: string, data: any) => ({

@@ -1,4 +1,4 @@
-import { CallsActionTypes } from "./types";
+import { CallsActionTypes } from "./types.ts";
 
 // common success
 export const callsApiResponseSuccess = (actionType: string, data: any) => ({

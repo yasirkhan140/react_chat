@@ -1,4 +1,4 @@
-import { BookmarksActionTypes } from "./types";
+import { BookmarksActionTypes } from "./types.ts";
 
 // common success
 export const bookmarksApiResponseSuccess = (actionType: string, data: any) => ({

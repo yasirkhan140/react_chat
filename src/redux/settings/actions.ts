@@ -1,4 +1,4 @@
-import { SettingsActionTypes } from "./types";
+import { SettingsActionTypes } from "./types.ts";
 
 // common success
 export const settingsApiResponseSuccess = (actionType: string, data: any) => ({

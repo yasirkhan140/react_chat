@@ -1,5 +1,5 @@
 // types
-import { ChatsActionTypes, ChatsState } from "./types";
+import { ChatsActionTypes, ChatsState } from "./types.ts";
 
 export const INIT_STATE: ChatsState = {
   favourites: [],

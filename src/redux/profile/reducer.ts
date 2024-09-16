@@ -1,5 +1,5 @@
 // types
-import { ProfileActionTypes, ProfileState } from "./types";
+import { ProfileActionTypes, ProfileState } from "./types.ts";
 
 export const INIT_STATE: ProfileState = {
   profileDetails: {},

@@ -1,5 +1,5 @@
 // types
-import { ContactsActionTypes, ContactsState } from "./types";
+import { ContactsActionTypes, ContactsState } from "./types.ts";
 
 export const INIT_STATE: ContactsState = {
   contacts: [],

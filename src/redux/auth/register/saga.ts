@@ -1,15 +1,15 @@
 import { takeEvery, fork, put, all, call } from "redux-saga/effects";
 
 //Account Redux states
-import { AuthRegisterActionTypes } from "./types";
+import { AuthRegisterActionTypes } from "./types.ts";
 import {
   authRegisterApiResponseSuccess,
   authRegisterApiResponseError,
-} from "./actions";
+} from "./actions.ts";
 
 //Include Both Helper File with needed methods
-import { getFirebaseBackend } from "../../../helpers/firebase_helper";
-import { postFakeRegister, postJwtRegister } from "../../../api/index";
+import { getFirebaseBackend } from "../../../helper/firebase_helper.js";
+import { postFakeRegister, postJwtRegister } from "../../../api/auth.ts";
 
 // initialize relavant method of both Auth
 const fireBaseBackend = getFirebaseBackend();

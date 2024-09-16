@@ -1,5 +1,5 @@
 // types
-import { CallsActionTypes, CallsState } from "./types";
+import { CallsActionTypes, CallsState } from "./types.ts";
 
 export const INIT_STATE: CallsState = {
   calls: [],

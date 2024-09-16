@@ -1,7 +1,7 @@
 // constants
-import { TABS, LAYOUT_MODES } from "../../constants/index";
+import { TABS, LAYOUT_MODES } from "../../constant/layout.ts";
 
-import { LayoutActionTypes, LayoutState } from "./types";
+import { LayoutActionTypes, LayoutState } from "./types.ts";
 
 export const INIT_STATE: LayoutState = {
   activeTab: TABS.CHAT,

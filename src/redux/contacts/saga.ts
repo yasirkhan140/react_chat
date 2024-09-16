@@ -1,23 +1,23 @@
 import { takeEvery, fork, put, all, call } from "redux-saga/effects";
 
 //  Redux States
-import { ContactsActionTypes } from "./types";
+import { ContactsActionTypes } from "./types.ts";
 import {
   contactsApiResponseSuccess,
   contactsApiResponseError,
-} from "./actions";
+} from "./actions.ts";
 
 // api
 import {
   getContacts as getContactsApi,
   inviteContact as inviteContactApi,
-} from "../../api/index";
+} from "../../api/contacts.ts";
 
 // helpers
 import {
   showSuccessNotification,
   showErrorNotification,
-} from "../../helpers/notifications";
+} from "../../helper/notifications.ts";
 
 function* getContacts({ payload: filters }: any) {
   try {

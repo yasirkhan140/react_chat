@@ -5,7 +5,7 @@ import { Button, Modal, ModalBody } from "reactstrap";
 import { CallItem } from "../data/calls.ts";
 
 //images
-import imagePlaceholder from "../assets/images/users/user-dummy-img.jpg";
+
 
 interface VideoCallModalProps {
   user: CallItem | null;
@@ -25,7 +25,7 @@ const VideoCallModal = ({ isOpen, onClose, user }: VideoCallModalProps) => {
     >
       <ModalBody className="p-0">
         <img
-          src={user && user.profileImage ? user.profileImage : imagePlaceholder}
+          src={user && user.profileImage ? user.profileImage : ""}
           alt=""
           className="videocallModal-bg"
         />

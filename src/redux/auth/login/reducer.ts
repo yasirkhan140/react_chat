@@ -1,4 +1,4 @@
-import { AuthLoginActionTypes, AuthLoginState } from "./types";
+import { AuthLoginActionTypes, AuthLoginState } from "./types.ts";
 
 export const INIT_STATE: AuthLoginState = {
   error: "",

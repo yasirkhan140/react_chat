@@ -1,5 +1,4 @@
-import avatar1 from "../assets/images/users/avatar-1.jpg";
-import img4 from "../assets/images/small/img-4.jpg";
+
 import { DISPLAY_TYPES, STATUS_TYPES } from "../constant/settings.ts";
 
 export interface BasicDetailsTypes {
@@ -44,8 +43,8 @@ let settings: SettingsTypes = {
   basicDetails: {
     firstName: "Kathryn",
     lastName: "Swarey",
-    profile: avatar1,
-    coverImage: img4,
+    profile: "avatar5",
+    coverImage: "avatar5",
     email: "adc@123.com",
     location: "California, USA",
   },

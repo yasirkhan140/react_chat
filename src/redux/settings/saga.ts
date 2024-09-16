@@ -1,16 +1,16 @@
 import { takeEvery, fork, put, all, call } from "redux-saga/effects";
 
 // Login Redux States
-import { SettingsActionTypes } from "./types";
+import { SettingsActionTypes } from "./types.ts";
 import {
   settingsApiResponseSuccess,
   settingsApiResponseError,
-} from "./actions";
+} from "./actions.ts";
 
 import {
   getSettings as getSettingsApi,
   updateSettings as updateSettingsApi,
-} from "../../api/index";
+} from "../../api/profile.ts";
 
 function* getSettings() {
   try {

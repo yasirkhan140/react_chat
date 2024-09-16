@@ -1,4 +1,4 @@
-import { AuthForgetPassActionTypes } from "./types";
+import { AuthForgetPassActionTypes } from "./types.ts";
 
 // common success
 export const authForgetPassApiResponseSuccess = (

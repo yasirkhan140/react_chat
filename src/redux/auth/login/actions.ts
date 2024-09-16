@@ -1,4 +1,4 @@
-import { AuthLoginActionTypes } from "./types";
+import { AuthLoginActionTypes } from "./types.ts";
 
 // common success
 export const authLoginApiResponseSuccess = (actionType: string, data: any) => ({

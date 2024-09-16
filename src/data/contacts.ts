@@ -1,17 +1,4 @@
-import avatar1 from "../assets/images/users/avatar-1.jpg";
-import avatar2 from "../assets/images/users/avatar-2.jpg";
-import avatar3 from "../assets/images/users/avatar-3.jpg";
-import avatar4 from "../assets/images/users/avatar-4.jpg";
-import avatar5 from "../assets/images/users/avatar-5.jpg";
-import avatar6 from "../assets/images/users/avatar-6.jpg";
-import avatar7 from "../assets/images/users/avatar-7.jpg";
-import avatar8 from "../assets/images/users/avatar-8.jpg";
-import avatar9 from "../assets/images/users/avatar-9.jpg";
-import avatar10 from "../assets/images/users/avatar-10.jpg";
-import img1 from "../assets/images/small/img-1.jpg";
-import img2 from "../assets/images/small/img-2.jpg";
-import img3 from "../assets/images/small/img-3.jpg";
-import img4 from "../assets/images/small/img-4.jpg";
+
 
 // interfaces
 import { ChannelTypes } from "./chat";
@@ -56,11 +43,11 @@ let contacts: ContactTypes[] = [
       list: [
         {
           id: 1,
-          url: img1,
+          url: "avatar5",
         },
         {
           id: 2,
-          url: img2,
+          url: "avatar5",
         },
       ],
     },
@@ -88,7 +75,7 @@ let contacts: ContactTypes[] = [
     id: "614ecab4aeecaa03e8244d57",
     firstName: "Carla",
     lastName: "Serrano",
-    profileImage: avatar1,
+    profileImage: "avatar5",
     about: "If several languages coalesce, the grammar of the resulting.",
     email: "adc@123.com",
     location: "California, USA",
@@ -104,11 +91,11 @@ let contacts: ContactTypes[] = [
       list: [
         {
           id: 1,
-          url: img1,
+          url: "avatar5",
         },
         {
           id: 2,
-          url: img2,
+          url: "avatar5",
         },
       ],
     },
@@ -152,12 +139,12 @@ let contacts: ContactTypes[] = [
       list: [
         {
           id: 1,
-          url: img1,
+          url: "avatar5",
         },
 
         {
           id: 4,
-          url: img1,
+          url: "avatar5",
         },
       ],
     },
@@ -185,7 +172,7 @@ let contacts: ContactTypes[] = [
     id: "614ecab463eda97c2df4fe9a",
     firstName: "Norris",
     lastName: "Decker",
-    profileImage: avatar2,
+    profileImage: "avatar5",
     about: "If several languages coalesce, the grammar of the resulting.",
     email: "adc@123.com",
     location: "California, USA",
@@ -205,11 +192,11 @@ let contacts: ContactTypes[] = [
       list: [
         {
           id: 1,
-          url: img1,
+          url: "avatar5",
         },
         {
           id: 2,
-          url: img2,
+          url: "avatar5",
         },
       ],
     },
@@ -238,7 +225,7 @@ let contacts: ContactTypes[] = [
     isFavourite: true,
     firstName: "Marguerite",
     lastName: "Campbell",
-    profileImage: avatar4,
+    profileImage: "avatar5",
     about: "If several languages coalesce, the grammar of the resulting.",
     email: "Marguerite@Campbell.com",
     location: "California, USA",
@@ -254,19 +241,19 @@ let contacts: ContactTypes[] = [
       list: [
         {
           id: 1,
-          url: img1,
+          url: "avatar5",
         },
         {
           id: 2,
-          url: img2,
+          url: "avatar5",
         },
         {
           id: 3,
-          url: img3,
+          url: "avatar5",
         },
         {
           id: 4,
-          url: img4,
+          url: "avatar5",
         },
       ],
     },
@@ -308,7 +295,7 @@ let contacts: ContactTypes[] = [
     id: "614ecab41f60c4fdffe639c8",
     firstName: "Katrina",
     lastName: "Winters",
-    profileImage: avatar3,
+    profileImage: "avatar5",
     about: "If several languages coalesce, the grammar of the resulting.",
     email: "adc@123.com",
     location: "California, USA",
@@ -329,19 +316,19 @@ let contacts: ContactTypes[] = [
       list: [
         {
           id: 1,
-          url: img1,
+          url: "avatar5",
         },
         {
           id: 2,
-          url: img2,
+          url: "avatar5",
         },
         {
           id: 3,
-          url: img4,
+          url: "avatar5",
         },
         {
           id: 4,
-          url: img1,
+          url: "avatar5",
         },
       ],
     },
@@ -404,19 +391,19 @@ let contacts: ContactTypes[] = [
       list: [
         {
           id: 1,
-          url: img1,
+          url: "avatar5",
         },
         {
           id: 2,
-          url: img2,
+          url: "avatar5",
         },
         {
           id: 3,
-          url: img4,
+          url: "avatar5",
         },
         {
           id: 4,
-          url: img1,
+          url: "avatar5",
         },
       ],
     },
@@ -458,7 +445,7 @@ let contacts: ContactTypes[] = [
     id: "614ecab4c2a5e35f32f78659",
     firstName: "Faulkner",
     lastName: "Benjamin",
-    profileImage: avatar5,
+    profileImage: "avatar5",
     about: "If several languages coalesce, the grammar of the resulting.",
     email: "adc@123.com",
     location: "California, USA",
@@ -479,19 +466,19 @@ let contacts: ContactTypes[] = [
       list: [
         {
           id: 1,
-          url: img1,
+          url: "avatar5",
         },
         {
           id: 2,
-          url: img2,
+          url: "avatar5",
         },
         {
           id: 3,
-          url: img4,
+          url: "avatar5",
         },
         {
           id: 4,
-          url: img1,
+          url: "avatar5",
         },
       ],
     },
@@ -553,19 +540,19 @@ let contacts: ContactTypes[] = [
       list: [
         {
           id: 1,
-          url: img1,
+          url: "avatar5",
         },
         {
           id: 2,
-          url: img2,
+          url: "avatar5",
         },
         {
           id: 3,
-          url: img4,
+          url: "avatar5",
         },
         {
           id: 4,
-          url: img1,
+          url: "avatar5",
         },
       ],
     },
@@ -607,7 +594,7 @@ let contacts: ContactTypes[] = [
     id: "614ecab4ebb18e740e372e80",
     firstName: "Earnestine",
     lastName: "Sears",
-    profileImage: avatar5,
+    profileImage: "avatar5",
     about: "If several languages coalesce, the grammar of the resulting.",
     email: "adc@123.com",
     location: "California, USA",
@@ -627,19 +614,19 @@ let contacts: ContactTypes[] = [
       list: [
         {
           id: 1,
-          url: img1,
+          url: "avatar5",
         },
         {
           id: 2,
-          url: img2,
+          url: "avatar5",
         },
         {
           id: 3,
-          url: img4,
+          url: "avatar5",
         },
         {
           id: 4,
-          url: img1,
+          url: "avatar5",
         },
       ],
     },
@@ -701,19 +688,19 @@ let contacts: ContactTypes[] = [
       list: [
         {
           id: 1,
-          url: img1,
+          url: "avatar5",
         },
         {
           id: 2,
-          url: img2,
+          url: "avatar5",
         },
         {
           id: 3,
-          url: img4,
+          url: "avatar5",
         },
         {
           id: 4,
-          url: img1,
+          url: "avatar5",
         },
       ],
     },
@@ -774,19 +761,19 @@ let contacts: ContactTypes[] = [
       list: [
         {
           id: 1,
-          url: img1,
+          url: "avatar5",
         },
         {
           id: 2,
-          url: img2,
+          url: "avatar5",
         },
         {
           id: 3,
-          url: img4,
+          url: "avatar5",
         },
         {
           id: 4,
-          url: img1,
+          url: "avatar5",
         },
       ],
     },
@@ -828,7 +815,7 @@ let contacts: ContactTypes[] = [
     id: "614ecab44fe4db874560b822",
     firstName: "Wallace",
     lastName: "Lane",
-    profileImage: avatar6,
+    profileImage: "avatar5",
     about: "If several languages coalesce, the grammar of the resulting.",
     email: "adc@123.com",
     location: "California, USA",
@@ -848,19 +835,19 @@ let contacts: ContactTypes[] = [
       list: [
         {
           id: 1,
-          url: img1,
+          url: "avatar5",
         },
         {
           id: 2,
-          url: img2,
+          url: "avatar5",
         },
         {
           id: 3,
-          url: img4,
+          url: "avatar5",
         },
         {
           id: 4,
-          url: img1,
+          url: "avatar5",
         },
       ],
     },
@@ -902,7 +889,7 @@ let contacts: ContactTypes[] = [
     id: "614ecab49b13ce36ad017914",
     firstName: "Jennifer",
     lastName: "Ramirez",
-    profileImage: avatar7,
+    profileImage: "avatar5",
     about: "If several languages coalesce, the grammar of the resulting.",
     email: "adc@123.com",
     location: "California, USA",
@@ -922,19 +909,19 @@ let contacts: ContactTypes[] = [
       list: [
         {
           id: 1,
-          url: img1,
+          url: "avatar5",
         },
         {
           id: 2,
-          url: img2,
+          url: "avatar5",
         },
         {
           id: 3,
-          url: img4,
+          url: "avatar5",
         },
         {
           id: 4,
-          url: img1,
+          url: "avatar5",
         },
       ],
     },
@@ -995,19 +982,19 @@ let contacts: ContactTypes[] = [
       list: [
         {
           id: 1,
-          url: img1,
+          url: "avatar5",
         },
         {
           id: 2,
-          url: img2,
+          url: "avatar5",
         },
         {
           id: 3,
-          url: img4,
+          url: "avatar5",
         },
         {
           id: 4,
-          url: img1,
+          url: "avatar5",
         },
       ],
     },
@@ -1069,19 +1056,19 @@ let contacts: ContactTypes[] = [
       list: [
         {
           id: 1,
-          url: img1,
+          url: "avatar5",
         },
         {
           id: 2,
-          url: img2,
+          url: "avatar5",
         },
         {
           id: 3,
-          url: img4,
+          url: "avatar5",
         },
         {
           id: 4,
-          url: img1,
+          url: "avatar5",
         },
       ],
     },
@@ -1123,7 +1110,7 @@ let contacts: ContactTypes[] = [
     id: "614ecab49785656f162d67db",
     firstName: "Tonia",
     lastName: "Clay",
-    profileImage: avatar8,
+    profileImage: "avatar5",
     about: "If several languages coalesce, the grammar of the resulting.",
     email: "adc@123.com",
     location: "California, USA",
@@ -1144,19 +1131,19 @@ let contacts: ContactTypes[] = [
       list: [
         {
           id: 1,
-          url: img1,
+          url: "avatar5",
         },
         {
           id: 2,
-          url: img2,
+          url: "avatar5",
         },
         {
           id: 3,
-          url: img4,
+          url: "avatar5",
         },
         {
           id: 4,
-          url: img1,
+          url: "avatar5",
         },
       ],
     },
@@ -1198,7 +1185,7 @@ let contacts: ContactTypes[] = [
     id: "614ecab4a4666b6ff5f7864f",
     firstName: "Hendrix",
     lastName: "Martin",
-    profileImage: avatar9,
+    profileImage: "avatar5",
     about: "If several languages coalesce, the grammar of the resulting.",
     email: "adc@123.com",
     location: "California, USA",
@@ -1219,19 +1206,19 @@ let contacts: ContactTypes[] = [
       list: [
         {
           id: 1,
-          url: img1,
+          url: "avatar5",
         },
         {
           id: 2,
-          url: img2,
+          url: "avatar5",
         },
         {
           id: 3,
-          url: img4,
+          url: "avatar5",
         },
         {
           id: 4,
-          url: img1,
+          url: "avatar5",
         },
       ],
     },
@@ -1273,7 +1260,7 @@ let contacts: ContactTypes[] = [
     id: "614ecab43dbce45d6d996d9f",
     firstName: "Donaldson",
     lastName: "Riddle",
-    profileImage: avatar10,
+    profileImage: "avatar5",
     about: "If several languages coalesce, the grammar of the resulting.",
     email: "adc@123.com",
     location: "California, USA",
@@ -1293,19 +1280,19 @@ let contacts: ContactTypes[] = [
       list: [
         {
           id: 1,
-          url: img1,
+          url: "avatar5",
         },
         {
           id: 2,
-          url: img2,
+          url: "avatar5",
         },
         {
           id: 3,
-          url: img4,
+          url: "avatar5",
         },
         {
           id: 4,
-          url: img1,
+          url: "avatar5",
         },
       ],
     },
@@ -1366,19 +1353,19 @@ let contacts: ContactTypes[] = [
       list: [
         {
           id: 1,
-          url: img1,
+          url: "avatar5",
         },
         {
           id: 2,
-          url: img2,
+          url: "avatar5",
         },
         {
           id: 3,
-          url: img4,
+          url: "avatar5",
         },
         {
           id: 4,
-          url: img1,
+          url: "avatar5",
         },
       ],
     },
@@ -1443,19 +1430,19 @@ let contacts: ContactTypes[] = [
       list: [
         {
           id: 1,
-          url: img1,
+          url: "avatar5",
         },
         {
           id: 2,
-          url: img2,
+          url: "avatar5",
         },
         {
           id: 3,
-          url: img4,
+          url: "avatar5",
         },
         {
           id: 4,
-          url: img1,
+          url: "avatar5",
         },
       ],
     },
